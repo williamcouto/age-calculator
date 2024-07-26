@@ -9,8 +9,8 @@
 .container{
     display: flex;
     flex-direction:column;
-    width: 38vw;
-    height: 34vh;
+    width: 37vw;
+    height: 43vh;
     padding: 24px;
     background-color: #ffff;
     margin: auto;
@@ -49,11 +49,14 @@ body{
 input{
     width: 100px;
     height: 28px;
+    border: 1px solid #0000002f;
+    border-radius: 5px;
     padding: 4px;
 }
 
 #res-Year , #res-Day , #res-Month{
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
     color: #15B097;
     font-weight: bold;
 }

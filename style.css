@@ -48,6 +48,11 @@ input{
     height: 30px;
 }
 
+#res-Year , #res-Day , #res-Month{
+    color: #FE5F55;
+    font-weight: bold;
+}
+
 #bttn-calc{
     cursor: pointer;
     width: 100px;

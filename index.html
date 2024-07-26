@@ -7,30 +7,44 @@
     <title>Document</title>
 </head>
 <body>
-    <section>
+    <div class="container">
         <div class="container-infos">
-            <label for="day_user">Dia</label>
-            <input type="number" name="day_user" id="day_user">
+            <div>
+                <label for="day_user">Dia</label>
+                <input type="number" name="day_user" id="day_user">
+            </div>
 
-            <label for="month_user">Mês</label>
-            <input type="number" name="month_user" id="month_user">
+            <div>
+                <label for="month_user">Mês</label>
+                <input type="number" name="month_user" id="month_user">
+            </div>
 
-            <label for="year_user">Ano</label>
-            <input type="number" name="year_user" id="year_user">
+            <div>
+                <label for="year_user">Ano</label>
+                <input type="number" name="year_user" id="year_user">
+            </div>
 
             <!-- adicionar minutos e quanto tempo falta para o aniversario -->
-            <input type="button" value="Calcular" onclick="calcAge()">
+            <input type="button" id="bttn-calc"  value="Calcular" onclick="calcAge()">
         </div>
 
         <div class="box-result">
-            <span id="res-Year">0</span>
-            <p>Anos</p>
-            <span id="res-Month">0</span>
-            <p>Meses</p>
-            <span id="res-Day">0</span>
-            <p>Dias</p>
+            <div>
+                <span id="res-Year">0</span>
+                <span>Anos</span>
+            </div>
+
+            <div>
+                <span id="res-Month">0</span>
+                <span>Meses</span>
+            </div>
+
+            <div>
+                <span id="res-Day">0</span>
+                <span>Dias</span>
+            </div>
         </div>
-    </section>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>

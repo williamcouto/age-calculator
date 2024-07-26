@@ -15,11 +15,11 @@ function calcAge(){
     // Calculando os meses
     let result_Mes = document.getElementById('res-Month')
     let calcMes = mes_Atual - mes
-    result_Mes.textContent = `${calcMes} Meses`
+    result_Mes.textContent = `${calcMes}`
 
     // Calculando os Dias
     let result_Dia = document.getElementById('res-Day')
     let calcDia = dia_Atual - dia
-    result_Dia.textContent = `${calcDia} Dias`
+    result_Dia.textContent = `${calcDia}`
 
 }

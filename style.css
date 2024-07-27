@@ -19,7 +19,7 @@
 }
 
 body{
-    background-color: #F0F0F0;
+    background-color: #F8F8F8;
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
 }
 
@@ -57,17 +57,16 @@ input{
 #res-Year , #res-Day , #res-Month{
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
     font-size: 2em;
-    color: #15B097;
+    color: #F55D3E;
     font-weight: bold;
 }
 
 #bttn-calc{
-    align-self: center;
     cursor: pointer;
-    width: 60px;
+    width: 65px;
     height: 50px;
     margin-top: 8px;
     border: none;
     border-radius: 70px;
-    background-color: #15B097;
+    background-color: #F55D3E;
 }

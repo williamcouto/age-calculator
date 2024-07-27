@@ -57,7 +57,7 @@ input{
 #res-Year , #res-Day , #res-Month{
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
     font-size: 2em;
-    color: #F55D3E;
+    color: #FF8811;
     font-weight: bold;
 }
 
@@ -68,5 +68,5 @@ input{
     margin-top: 8px;
     border: none;
     border-radius: 70px;
-    background-color: #F55D3E;
+    background-color: #FF8811;
 }

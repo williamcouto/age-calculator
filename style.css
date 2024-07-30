@@ -80,7 +80,7 @@ input{
     .container-infos{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: baseline;
     }
 
     input{
@@ -90,4 +90,16 @@ input{
         border-radius: 5px;
         padding: 4px;
     }
+
+    #bttn-calc{
+        align-self: center;
+        cursor: pointer;
+        width: 80%;
+        height: 50px;
+        margin-top: 8px;
+        border: none;
+        border-radius: 5px;
+        background-color: #FF8811;
+    }
+    
 }

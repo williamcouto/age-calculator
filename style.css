@@ -12,14 +12,13 @@
     width: 37vw;
     height: 49vh;
     padding: 24px;
-    background-color: #ffff;
+    background-color: #F8F8F8;
     margin: auto;
     margin-top: 35px;
     border-radius: 16px;
 }
 
 body{
-    background-color: #F8F8F8;
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
 }
 

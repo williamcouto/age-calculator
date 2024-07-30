@@ -69,3 +69,25 @@ input{
     border-radius: 70px;
     background-color: #FF8811;
 }
+
+
+@media screen and (min-width:320px) and (max-width: 800px){
+    .container{
+        width: 70vw;
+        height: 45vh;
+    }
+
+    .container-infos{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    input{
+        width: 100px;
+        height: 28px;
+        border: 1px solid #0000002f;
+        border-radius: 5px;
+        padding: 4px;
+    }
+}
